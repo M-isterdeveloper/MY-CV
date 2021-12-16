@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="`en`">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="image/processing.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500&display=swap"
+        rel="stylesheet">
+    <title>Welcome, my CV</title>
+</head>
+
+<body>
+
+
+    <!--блок с основным контентом-->
+    <main class="main">
+        <!--  header img  -->
+        <div class="header-image" id="top">
+            <div class="js-parallax">
+                <div class="header-parallax"></div>
+            </div>
+        </div>
+        <!-- header -->
+        <div class="container gutter-top">
+            <header class="header header-box box">
+                <div class="header__left">
+                    <div class="header-photo">
+                        <img src="image/avatar.png" alt="" class="header__photo-img">
+                    </div>
+                    <div class="header__base-info">
+                        <h4>Gubkin Ivan</h4>
+                        <div class="status">
+                            <span>Front-end developer</span>
+                        </div>
+                        <ul class="header__social">
+                            <li><a href="https://wa.me/79134504101" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li><a href="https://t.me/gubkin_ivan" target="_blank"><i
+                                        class="fas fa-paper-plane"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="header-contact">
+                        <ul>
+                            <li>
+                                <p class="overhead">EMAIL</p>
+                                <a href="mailto:gubkin992@gmail.com">gubkin992@gmail.com</a>
+                            </li>
+                            <li>
+                                <p class="overhead">PHONE</p>
+                                <a href="tel:+79134504101">+7-(913)-450-41-01</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-contact">
+                        <ul>
+                            <li>
+                                <p class="overhead">BIRTHDAY</p>
+                                28/09/1992
+                            </li>
+                            <li>
+                                <p class="overhead">LOCATION</p>
+                                Novosibirsk
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </header>
+            <div class="main-content">
+                <aside class="aside">
+                    <div class="sidebar sticky-column">
+                        <input type="radio" name="control" class="nav-input" id="nav-first">
+                        <input type="radio" name="control" class="nav-input" id="nav-two" checked>
+                        <input type="radio" name="control" class="nav-input" id="nav-three">
+                        <input type="radio" name="control" class="nav-input" id="nav-four">
+                        <input type="radio" name="control" class="nav-input" id="nav-five">
+                        <div class="nav-label box">
+                            <label class="nav-item" id="nav-label-first" for="nav-first"><i
+                                    class="far fa-user"></i>About</label>
+                            <label class="nav-item" id="nav-label-two" for="nav-two"><i
+                                    class="far fa-sticky-note"></i>Resume</label>
+                            <label class="nav-item" id="nav-label-three" for="nav-three"><i
+                                    class="fas fa-dice-d20"></i>Works</label>
+                            <label class="nav-item" id="nav-label-four" for="nav-four"><i
+                                    class="fab fa-blogger-b"></i>Blog</label>
+                            <label class="nav-item" id="nav-label-five" for="nav-five"><i
+                                    class="far fa-envelope"></i>Contact</label>
+                        </div>
+                        <figure class="figure">
+                            <div class="figure-box box" id="about-box">
+                                <div class="figure-title">
+                                    <h2>About Me</h2>
+                                </div>
+                                <div class="figure-text-my">
+                                    <p>
+                                        Рад приветствовать тебя на своей странице, давай знакомиться!
+                                        Меня зовут Иван, и я начинающий frontend-developer.
+                                        Моя цель - стать профессионалом в этом деле.
+                                    </p>
+                                    <p>Слева находится меню навигации по странице.
+                                    Для того, чтобы ознакомиться с историей моего пути, зайди в <span>Resume</span>. <br>
+                                    </p>
+                                    <p>Затем, обязательно зайди в <span>Works</span>. Там ты найдешь мои проекты.</p>
+                                    <p>В разделе <span>Blog</span> я буду писать о своих интересных событиях, находках или просто делиться мыслями.</p>
+                                    <p>После того, как ты совершишь небольшой тур по странице, зайди в <span>Contact</span> и дай обратную связь, если у тебя есть слова пожелания или ты заметил какой-то недостаток. Я с радостью приму твои пожелания.</p>
+                                </div>
+                                <div class="figure-directions-title">
+                                    <h3>What I'm Doing</h3>
+                                </div>
+                                <div class="figure-directions">
+                                    <div class="figure-dir-item">
+                                        <i class="fas fa-clone"></i>
+                                        <h3>Landing Pages</h3>
+                                        <p>High-quality development of sites at the professional level</p>
+                                    </div>
+                                    <div class="figure-dir-item">
+                                        <i class="fab fa-battle-net"></i>
+                                        <h3>Web Apps</h3>
+                                        <p>High-quality development of sites at the professional level</p>
+                                    </div>
+                                    <div class="figure-dir-item">
+                                        <i class="fas fa-globe"></i>
+                                        <h3>Web sites</h3>
+                                        <p>High-quality development of sites at the professional level</p>
+                                    </div>
+                                    <div class="figure-dir-item">
+                                        <i class="fab fa-google-play"></i>
+                                        <h3>Mobile applications</h3>
+                                        <p>High-quality development of sites at the professional level</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="figure-box box" id="resume-box">
+                                <div class="figure-title resume-head">
+                                    <h2>Resume</h2>
+                                    <div class="resume-download">
+                                        <a target="_blank" href="./download/GubkinIvan.pdf">Скачать резюме</a>
+                                    </div>
+                                </div>
+                                <div class="figure-resume-item">
+                                    <div class="figure-education">
+                                        <div class="figure-education-title">
+                                            <i class="fas fa-graduation-cap"></i>
+                                            <h4>Образование</h4>
+                                        </div>
+                                        <div class="figure-education-text">
+                                            <div class="resume-point _point">
+                                                <h4>NSPU</h4>
+                                                <p>2010 - 2015</p>
+                                                <p>Окончил педагогический институт</p>
+                                            </div>
+                                            <div class="resume-point _point">
+                                                <h4>Дополнительное образование</h4>
+                                                <p>2020 - 2021</p>
+                                                <p>Самостоятельно изучал верстку около полугода</p>
+                                            </div>
+                                            <div class="resume-point _point">
+                                                <h4>Курсы "Udemy"</h4>
+                                                <p>2021 - 2022</p>
+                                                <p>В настоящий момент изучаю JavaScript по курсам образовательной платформы Udemy</p>
+                                            </div>
+                                        </div>
+                                        <div class="figure-education-title">
+                                            <i class="far fa-futbol"></i>
+                                            <h4>Интересы</h4>
+                                        </div>
+                                        <div class="figure-education-text">
+                                            <div class="resume-point _point">
+                                                <h4>Soccer</h4>
+                                                <p>Я очень люблю играть в футбол. Если бы я стал профессиональным футболистом, вы бы не читали эти строки</p>
+                                            </div>
+                                            <div class="resume-point _point">
+                                                <h4>Book</h4>
+                                                <p>Я предпочитаю триллеры. Жизнь без интриги не была бы жизнью. Книги о JS этой категории</p>
+                                            </div>
+                                            <div class="resume-point _point">
+                                                <h4>Food</h4>
+                                                <p>Что такое еда? Еда - это подарок тому, у кого есть все.</p>
+                                            </div>
+                                            <div class="resume-point _point _point-interest">
+                                                <h4>Gym</h4>
+                                                <p>Конечно спорт. Тренажерный зал для выработки силы воли и трансформации вкусной еды</p>
+                                            </div>
+                                        </div>
+                                        <div class="figure-education-title">
+                                            <i class="fas fa-cog"></i>
+                                            <h4>Инструменты разработки</h4>
+                                        </div>
+                                        <div class="figure-skills-box">
+                                            <div class="skills-box-wrapper">
+                                                <div class="skills-box skills-box-html">
+                                                    <i class="fab fa-html5"></i>
+                                                    <p>HTML</p>
+                                                </div>
+                                                <div class="skills-box skills-box-css">
+                                                    <i class="fab fa-css3-alt"></i>
+                                                    <p>CSS</p>
+                                                </div>
+                                            </div>
+                                         <div class="skills-box-wrapper">
+                                            <div class="skills-box skills-box-scss">
+                                                <i class="fab fa-sass"></i>
+                                                <p>Sass</p>
+                                            </div>
+                                            <div class="skills-box skills-box-js">
+                                                <i class="fab fa-js-square"></i>
+                                                <p>JavaScript</p>
+                                            </div>
+                                         </div>
+                                         <div class="skills-box-wrapper">
+                                            <div class="skills-box skills-box-js">
+                                                <i class="fab fa-react"></i>
+                                                <p>React</p>
+                                            </div>
+                                            <div class="skills-box skills-box-git">
+                                                <i class="fab fa-github"></i>
+                                                <p>Git</p>
+                                            </div>
+                                         </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="figure-box box" id="works-box">
+                                <div class="figure-title">
+                                    <h2>Works</h2>
+                                </div>
+                                <div class="works-box">
+                                    <input type="radio" name="radio" id="all-page" checked>
+                                    <input type="radio" name="radio" id="landing-page">
+                                    <input type="radio" name="radio" id="web-app">
+                                    <input type="radio" name="radio" id="web-site">
+                                    <div class="works-spoiler">
+                                        <p class="text-spoiler">All</p>
+                                    </div>
+                                    <div class="works-label">
+                                        <label class="label-works" id="label-all" for="all-page">All</label>
+                                        <label class="label-works" id="label-page" for="landing-page">Landing
+                                            Pages</label>
+                                        <label class="label-works" id="label-app" for="web-app">Web Apps</label>
+                                        <label class="label-works" id="label-site" for="web-site">Web sites</label>
+                                    </div>
+                                    <div class="works-box-wrapper">
+                                        <a href="https://m-isterdeveloper.github.io/WEBApps/" target="_blank"
+                                            class="works-box-card _app" id="app">
+                                            <div class="works-card-img">
+                                                <img src="./image/procrastinator.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Procrastinator</h3>
+                                                <span>Web App</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://m-isterdeveloper.github.io/Drop-bord/" target="_blank"
+                                            class="works-box-card _app">
+                                            <div class="works-card-img">
+                                                <img src="./image/board.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Drop-bord</h3>
+                                                <span>Web App</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://m-isterdeveloper.github.io/Gallery-image/" target="_blank"
+                                            class="works-box-card _app">
+                                            <div class="works-card-img">
+                                                <img src="./image/gallery.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Gallery</h3>
+                                                <span>Web App</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://m-isterdeveloper.github.io/Kinomostr/" target="_blank"
+                                            class="works-box-card _webSite">
+                                            <div class="works-card-img">
+                                                <img src="./image/kinomonstr.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Kinomonstr</h3>
+                                                <span>Web Site</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://m-isterdeveloper.github.io/Game-bools/" target="_blank"
+                                            class="works-box-card _app">
+                                            <div class="works-card-img">
+                                                <img src="./image/kiil.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Kill balls</h3>
+                                                <span>Web App</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://m-isterdeveloper.github.io/Slider-img/" target="_blank"
+                                            class="works-box-card _app">
+                                            <div class="works-card-img">
+                                                <img src="./image/slider.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Picture slider</h3>
+                                                <span>Web App</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="figure-box box" id="blog-box">
+                                <div class="figure-title figure-contact">
+                                    <h2>Blog</h2>
+                                </div>
+                            </div>
+                            <div class="figure-box box" id="contact-box">
+                                <div class="figure-title figure-contact">
+                                    <h2>Contact</h2>
+                                    <!--                                <div class="contact-like">-->
+                                    <!--                                    <div class="heart"><i class="far fa-heart"></i></div>-->
+                                    <!--                                    <div class="heart-hide"><i class="fas fa-heart"></i></div>-->
+                                    <!--                                </div>-->
+                                </div>
+                                <div class="contact-wrapper">
+                                    <div class="contact-text">
+                                        <h3>Thanks to!</h3>
+                                        <p>Thank you for visiting my page. If you liked it, like it! If you have any
+                                            suggestions for work, development or constructive criticism on the site,
+                                            then use the feedback form. Hugged, lifted.</p>
+                                    </div>
+                                    <form action="#" class="contact-form" id="form">
+                                        <div class="contact-input-block">
+                                            <div class="form-item">
+                                                <label for="userName">
+                                                    <input type="text" name="userName" id="userName"
+                                                        class="input-general" placeholder="Full name" required>
+                                                </label>
+                                            </div>
+                                            <div class="form-item">
+                                                <label for="userName">
+                                                    <input type="email" name="userEmail" id="email"
+                                                        class="input-general" placeholder="Email adress" required>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="contact-message-block">
+                                            <label for="messageUser">
+                                                <textarea name="message" id="messageUser" class="input-general"
+                                                    placeholder="Your Message"></textarea>
+                                            </label>
+                                        </div>
+                                        <div class="contact-btn">
+                                            <button type="submit" class="btn"><i class="fas fa-paper-plane"></i>Send
+                                                Message</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </figure>
+                    </div>
+                </aside>
+
+
+            </div>
+        </div>
+    </main>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

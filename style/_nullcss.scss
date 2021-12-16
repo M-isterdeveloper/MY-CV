@@ -1,0 +1,60 @@
+//шрифты
+$basic-fonts:  'Poppins', sans-serif;
+//основные цвета проекта
+$color-title: #FCFCFC;
+$color-text: #AEB0B8;
+$color-element-blue: #0D86FF;
+$color-gradient: linear-gradient(142.17deg, #0DA2FF 6.66%, #0055FF 91.48%);
+$color-orange: #FF965D;
+$border-color: #33363d;
+$body-color: #1D1E24;
+$aside-color: #23262B;
+$box-color: #2E2F36;
+$box-shadow: rgba(0, 0, 0, .2) -4px -4px 5px inset, rgba(255, 255, 255, .23) 4px 4px 5px inset;
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	line-height: 1.7;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	background-color: $body-color;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+a,button,li,span {color: $color-text; font-family: $basic-fonts}
+p{color: #dbdee8; font-family: $basic-fonts}
+h1,h2,h3,h4,h5,h6, label{
+	font-family:'Poppins', sans-serif, 'Ubuntu', sans-serif;
+	font-weight: 600;
+	color: $color-title;
+	line-height: 1.3;
+}
+/*--------------------*/
+
