@@ -82,8 +82,8 @@
             <div class="main-content">
                 <aside class="aside">
                     <div class="sidebar sticky-column">
-                        <input type="radio" name="control" class="nav-input" id="nav-first">
-                        <input type="radio" name="control" class="nav-input" id="nav-two" checked>
+                        <input type="radio" name="control" class="nav-input" id="nav-first" checked>
+                        <input type="radio" name="control" class="nav-input" id="nav-two">
                         <input type="radio" name="control" class="nav-input" id="nav-three">
                         <input type="radio" name="control" class="nav-input" id="nav-four">
                         <input type="radio" name="control" class="nav-input" id="nav-five">
@@ -315,6 +315,26 @@
                                                 <span>Web App</span>
                                             </div>
                                         </a>
+                                        <a href="https://m-isterdeveloper.github.io/Food-project/" target="_blank"
+                                            class="works-box-card _landing-page">
+                                            <div class="works-card-img">
+                                                <img src="./image/food.jpg" alt="">
+                                            </div>
+                                            <div class="works-card-title">
+                                                <h3>Healthy food </h3>
+                                                <span>Landing page</span>
+                                            </div>
+                                        </a>
+                                        <a href="https://github.com/M-isterdeveloper/Landing-Page-Irvis" target="_blank"
+                                        class="works-box-card _landing-page">
+                                        <div class="works-card-img">
+                                            <img src="./image/irviswindow.jpg" alt="">
+                                        </div>
+                                        <div class="works-card-title">
+                                            <h3>Irvis windows</h3>
+                                            <span>Landing page</span>
+                                        </div>
+                                    </a>
                                     </div>
                                 </div>
                             </div>
@@ -338,19 +358,21 @@
                                             suggestions for work, development or constructive criticism on the site,
                                             then use the feedback form. Hugged, lifted.</p>
                                     </div>
-                                    <form action="#" class="contact-form" id="form">
+                                    <form action="#" class="contact-form" name="form" id="form">
                                         <div class="contact-input-block">
                                             <div class="form-item">
                                                 <label for="userName">
                                                     <input type="text" name="userName" id="userName"
                                                         class="input-general" placeholder="Full name" required>
                                                 </label>
+                                                <p id='inputName'></p>
                                             </div>
                                             <div class="form-item">
                                                 <label for="userName">
                                                     <input type="email" name="userEmail" id="email"
                                                         class="input-general" placeholder="Email adress" required>
                                                 </label>
+                                                <p id='inputMail'></p>
                                             </div>
                                         </div>
                                         <div class="contact-message-block">
@@ -360,7 +382,7 @@
                                             </label>
                                         </div>
                                         <div class="contact-btn">
-                                            <button type="submit" class="btn"><i class="fas fa-paper-plane"></i>Send
+                                            <button type="submit" name="submit" class="btn"><i class="fas fa-paper-plane"></i>Send
                                                 Message</button>
                                         </div>
                                     </form>
