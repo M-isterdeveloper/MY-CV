@@ -34,13 +34,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const forms = () => {
         const form = document.querySelector('.contact-form'),
               inputs = document.querySelectorAll('input'),
-              blockBtn = document.querySelector('.contact-btn'),
-              formBtn = blockBtn.querySelector('.btn');
+              blockBtn = document.querySelector('.contact-btn');
 
        const message = {
             loading: "Отправляем...",
             sucsses: 'Благодарю!',
-            failure: "Что-то пошло не так" 
+            failure: "Что-то пошло не так" ,
+            imgOK: "./image/messageOk.png"
        };     
     
        const postData = async (url, data) => {
@@ -66,6 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 let statusMessage = document.createElement('div');
                 statusMessage.classList.add('status-form');
                 form.appendChild(statusMessage);
+
     
                 const formDate = new FormData(form);
     
