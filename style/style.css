@@ -718,17 +718,18 @@ h1, h2, h3, h4, h5, h6, label {
 
 .status-form {
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   position: absolute;
   height: 250px;
   width: 300px;
   display: flex;
-  border: 1px solid #777;
   border-radius: 18px;
   justify-content: center;
   align-items: center;
   top: 50%;
-  background-color: black;
+  background-color: #1D1E24;
+  box-shadow: 0 0 8px #1616169c;
   left: 50%;
   transform: translate(-50%, -50%);
 }
