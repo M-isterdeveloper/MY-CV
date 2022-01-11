@@ -148,7 +148,7 @@
     top: 43px;
     opacity: 0;
     visibility: hidden;
-    .label-works, .label-works:last-child {
+    .label-works, .label-works:last-child  {
       margin: 0.7rem 0 0 0;
       &:before {
         display: none;
@@ -159,6 +159,9 @@
       transition: all .3s ease-in-out;
       visibility: visible;
       box-shadow: 0 0.625rem 2.75rem rgba(0, 0, 0, .5);
+    }
+    .label-works:first-child {
+      margin: 0; 
     }
   }
 

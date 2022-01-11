@@ -1,9 +1,9 @@
 'use strict'
 window.addEventListener('DOMContentLoaded', () => {
-    const worksLinkLabel = document.querySelectorAll('.label-works');
-    const workSpoiler = document.querySelector('.works-spoiler');
-    const worksLabel = document.querySelector('.works-label');
-    const textSpoiler = document.querySelector('.text-spoiler');
+    const worksLinkLabel = document.querySelectorAll('.label-works'),
+          workSpoiler = document.querySelector('.works-spoiler'),
+          worksLabel = document.querySelector('.works-label'),
+          textSpoiler = document.querySelector('.text-spoiler');
 //функция открытия и закрытия выпадающего списка в портфолио
     function openWorksControl() {
 
@@ -11,13 +11,13 @@ window.addEventListener('DOMContentLoaded', () => {
             workSpoiler.classList.toggle('open');
             worksLabel.classList.toggle('open');
 
-            for (let link of worksLinkLabel) {
-                link.addEventListener('click', () => {
+            worksLinkLabel.forEach(link => {
+                link.addEventListener('click', (e) => {
                     workSpoiler.classList.remove('open');
                     worksLabel.classList.remove('open');
                     textSpoiler.innerHTML = link.innerHTML;
                 })
-            }   
+            });
         });
     }
     openWorksControl();
