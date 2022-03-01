@@ -25,8 +25,7 @@ window.addEventListener('DOMContentLoaded', () => {
     window.addEventListener("scroll", function () {
         let scroll = window.pageYOffset;
         let startParallax = document.querySelector('.header-parallax');
-        startParallax.style.transform = "translate3d(0," + scroll / 30 + "rem, 0)"
-
+        startParallax.style.transform = "translate3d(0," + scroll / 30 + "rem, 0)";
     });
 
 
